@@ -14,15 +14,13 @@ Using the np.linalg.solve(), we can find the solutions.
 ### Step 4: 
 End the program
 ## Program:
-#Program to find the solution for the given linear equations.
-#Developed by: G P HARIESH 
-#RegisterNumber: 212224040100
-
+```
 import numpy as hp
 A=hp.array([[1,3],[2,5]])
 B=hp.array([5,-3])
 result=hp.linalg.solve(A,B)
 print(result)
+```
 
 ## Output:
 ![Screenshot (88)](https://github.com/user-attachments/assets/a3d1dce6-672b-43ad-bec8-72599acaa0a7)
